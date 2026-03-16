@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+/* CSS Document */
+body {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  background-image: url('../media/aurora.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  width: 50%;
+  margin:auto;
+}
+section {
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 2px 2px black;
+  opacity: .8;
+}
+label {
+  font-weight: 900;
+  font-size: 120%;
+}
+#counter {
+  background-color: darkturquoise;
+  width:30px;
+  height:20px;	
+  border-radius: 20px;
+  padding: 5px;
+  float: right;
+  font-size: 50%;
+  margin-top:10px;	
+  margin-right: 20px;
+  box-shadow: 2px 2px darkslategray;
+}
+h1 {
+  margin-top: 100px;
+}
+ul {
+  display: inline-block;
+  cursor: move;
+  text-align: left;
+  width: 300px;
+  max-width: 100%;
+}
+li {
+  color: darkslategray;
+  font-size: 130%;
+}
+li:first-child {
+  font-size: 160%;
+  color: black;
+}
+input[type='submit'] {
+  background-color: darkturquoise;
+  border: 0;
+  color: black;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 2px 2px darkslategray;
+}
