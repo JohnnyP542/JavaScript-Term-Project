@@ -186,3 +186,15 @@ text-shadow:
 0 0 3px #b3ff00,
 0 0 6px #b3ff00;
 }
+/*aim trainer*/
+.aim-target {
+    transition: transform 0.1s;
+}
+
+.aim-target:hover {
+    transform: scale(1.2);
+}
+/* crosshair cursor */
+#aim-arena {
+    cursor: crosshair;
+}
